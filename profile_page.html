@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamzah Aftab Toor — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Grotesk:wght@400;600&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Header/Navbar -->
+      <header>
+        <nav class="wrap">
+          <a href="#top" class="brand">hamzah<span>.</span>dev</a>
+          <ul class="navlinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <!-- Theme Toggle Button -->
+          <button
+            id="theme-toggle"
+            class="theme-toggle-btn"
+            aria-label="Toggle theme"
+          >
+            🌙
+          </button>
+        </nav>
+      </header>
+
+      <main id="top">
+        <!-- Hero Section: Profile Picture Side-by-Side with Heading -->
+        <section class="hero" style="border-top: none; padding-top: 64px">
+          <div class="wrap hero-grid">
+            <div class="profile-pic-container">
+              <img
+                src="images/IMG_1860.JPG"
+                alt="Portrait of Hamzah Aftab Toor"
+                class="profile-pic"
+              />
+              <div class="pic-ring"></div>
+            </div>
+
+            <div class="hero-text">
+              <p class="eyebrow">
+                <span class="dot"></span> ISLAMABAD, PK — OPEN TO REMOTE
+              </p>
+              <h1>
+                Hi, I'm <span class="name-highlight">Hamzah Aftab Toor</span>
+              </h1>
+              <!-- Auto typing bio text target -->
+              <p class="hero-bio" id="typing-text"></p>
+              <div class="cta-row" style="margin-top: 24px">
+                <a href="#projects" class="btn primary">View projects</a>
+                <a href="#contact" class="btn ghost">Get in touch</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+          <div class="wrap">
+            <div class="section-head">
+              <span class="section-num">01</span>
+              <h2>About</h2>
+            </div>
+            <div class="about-grid">
+              <p>
+                I'm currently completing an MS in Information Security at Bahria
+                University Islamabad, following a BS in Computer Science. My
+                focus sits at the intersection of network defense and applied ML
+                — most recently building an adversarially aware intrusion
+                detection system and evaluating it against real attack
+                conditions rather than synthetic noise. Alongside the security
+                track, I've spent several years designing and shipping mobile
+                products, so I tend to think about a system both as something to
+                defend and something to build well.
+              </p>
+              <ul class="credentials">
+                <li>
+                  <div class="cred-title">MS Information Security</div>
+                  <div class="cred-sub">
+                    Bahria University Islamabad · 2024–2026
+                  </div>
+                </li>
+                <li>
+                  <div class="cred-title">BS Computer Science</div>
+                  <div class="cred-sub">
+                    Bahria University Islamabad · 2016–2020
+                  </div>
+                </li>
+                <li>
+                  <div class="cred-title">Targeting</div>
+                  <div class="cred-sub">
+                    SOC Analyst · Security Analyst · GRC — Islamabad or remote
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+          <div class="wrap">
+            <div class="section-head">
+              <span class="section-num">02</span>
+              <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-date">RESEARCH<br />ASSISTANT</div>
+                <div>
+                  <p class="tl-role">Research Assistant — Care Pvt Ltd</p>
+                  <p class="tl-org">
+                    National Cybersecurity Infrastructure Project (NCCS / SRAD)
+                  </p>
+                  <p class="tl-desc">
+                    Contributed to Pakistan's national cybersecurity
+                    infrastructure initiative, working with containerized
+                    deployments to support the project's security tooling.
+                  </p>
+                  <div class="stack-tags">
+                    <span class="stack-tag">Docker</span>
+                    <span class="stack-tag">Portainer</span>
+                    <span class="stack-tag">Infrastructure security</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-date">INTERNSHIP</div>
+                <div>
+                  <p class="tl-role">Data Analyst — Rock BPO Technologies</p>
+                  <p class="tl-org">Backend database design</p>
+                  <p class="tl-desc">
+                    Worked on backend database structure and querying to support
+                    reporting and internal data workflows.
+                  </p>
+                  <div class="stack-tags">
+                    <span class="stack-tag">SQL</span>
+                    <span class="stack-tag">Database design</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-date">INTERNSHIP</div>
+                <div>
+                  <p class="tl-role">Flutter Developer — Evamp &amp; Saanga</p>
+                  <p class="tl-org">Mobile development</p>
+                  <p class="tl-desc">
+                    Built and iterated on mobile app features as part of the
+                    Flutter development team.
+                  </p>
+                  <div class="stack-tags">
+                    <span class="stack-tag">Flutter</span>
+                    <span class="stack-tag">Dart</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+          <div class="wrap">
+            <div class="section-head">
+              <span class="section-num">03</span>
+              <h2>Projects</h2>
+            </div>
+            <div class="proj-grid">
+              <div class="proj-card">
+                <span class="proj-badge defend">DEFEND</span>
+                <h3>Adversarially Aware Intrusion Detection System</h3>
+                <p>
+                  Research paper evaluating IDS robustness against real
+                  surrogate-model FGSM attacks (not random noise), trained and
+                  tested on NSL-KDD and UNSW-NB15. Adversarial training
+                  recovered recall lost under attack.
+                </p>
+                <p class="proj-meta">
+                  scikit-learn · pandas · numpy · supervised by Sohail Saeed
+                  Imran
+                </p>
+              </div>
+
+              <div class="proj-card">
+                <span class="proj-badge build">BUILD</span>
+                <h3>Flutter Apps with Hardware Integration</h3>
+                <p>
+                  Two deployed mobile applications integrating device camera,
+                  geolocation, calendar, and local database — designed and built
+                  end to end.
+                </p>
+                <p class="proj-meta">Flutter · Dart · Android Studio · Figma</p>
+              </div>
+
+              <div class="proj-card">
+                <span class="proj-badge defend">DEFEND</span>
+                <h3>SOC Scripting Toolkit</h3>
+                <p>
+                  Python scripts for log parsing and regex-based filtering,
+                  built to speed up manual triage tasks common to SOC workflows.
+                </p>
+                <p class="proj-meta">Python · regex · log analysis</p>
+              </div>
+
+              <div class="proj-card">
+                <span class="proj-badge build">BUILD</span>
+                <h3>Super Me — Productivity Landing Page</h3>
+                <p>
+                  A landing page for a personal productivity concept, designed
+                  and built from scratch with a custom type and color system.
+                </p>
+                <p class="proj-meta">HTML · CSS · JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+          <div class="wrap">
+            <div class="section-head">
+              <span class="section-num">04</span>
+              <h2>Skills</h2>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-col defend">
+                <h3>Security</h3>
+                <ul class="skill-list">
+                  <li>IDS / IPS &amp; intrusion analysis</li>
+                  <li>Ethical hacking &amp; penetration testing</li>
+                  <li>Cryptography</li>
+                  <li>Cloud computing security</li>
+                  <li>InfoSec management</li>
+                  <li>Docker &amp; Portainer</li>
+                  <li>Python for SOC scripting</li>
+                </ul>
+              </div>
+              <div class="skill-col build">
+                <h3>Product &amp; Build</h3>
+                <ul class="skill-list">
+                  <li>Flutter &amp; Dart</li>
+                  <li>Android Studio</li>
+                  <li>Figma &amp; UI/UX design</li>
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>SQL / Oracle</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+          <div class="wrap">
+            <div class="contact-box">
+              <div>
+                <h2>Let's talk.</h2>
+                <p>
+                  Open to SOC Analyst, Security Analyst, and GRC roles in
+                  Islamabad, and remote opportunities.
+                </p>
+              </div>
+              <div class="contact-links">
+                <a href="mailto:your-email@example.com"
+                  >your-email@example.com</a
+                >
+                <a
+                  href="https://linkedin.com/in/your-handle"
+                  target="_blank"
+                  rel="noopener"
+                  >linkedin.com/in/your-handle</a
+                >
+                <a
+                  href="https://github.com/your-handle"
+                  target="_blank"
+                  rel="noopener"
+                  >github.com/your-handle</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <div class="wrap">
+          &copy; 2026 Hamzah Aftab Toor. All rights reserved. Built with HTML,
+          CSS &amp; JavaScript.
+        </div>
+      </footer>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+  </body>
+</html>
